@@ -1,5 +1,5 @@
 <Query Kind="Statements">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 // GroupBy returns a sequence of groups
@@ -12,7 +12,9 @@
 
 var colors = CourseLib.ColorSource.GetColors();
 var groupedResult = colors.GroupBy(c => c.ColorFamily );
+var groupedResult1 = colors.GroupBy(c => c.BlueValue );
 
-groupedResult.Dump();
+
+groupedResult1.Dump();
 
 //groupedResult.ElementAt(2).Dump();

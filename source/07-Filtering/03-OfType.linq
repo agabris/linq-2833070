@@ -1,5 +1,5 @@
 <Query Kind="Statements">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
   <Namespace>System.Runtime.Serialization</Namespace>
 </Query>
 
@@ -9,6 +9,6 @@ var q = from card in CourseLib.CardSource.GetCards()
 				
 		
 var monstersOnly = q.OfType<CourseLib.Cards.Monster>();
-//monstersOnly.Select(c => new {c.Name, c.ListPrice, c.TypeName}).Dump();
+monstersOnly.Select(c => new {c.Name, c.ListPrice, c.TypeName}).Dump();
 //q.OfType<ISerializable>().Dump();
 q.Dump();

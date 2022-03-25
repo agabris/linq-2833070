@@ -1,5 +1,6 @@
 <Query Kind="Program">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Output>DataGrids</Output>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 void Main()
@@ -27,7 +28,10 @@ public static class NumberExpressions
 		if (candidate % 2 == 0) return false;
 
 		var boundary = (int)Math.Floor(Math.Sqrt(candidate));
-
+		// Floor: egész rész, %: c= a % b: c  az a/b osztás maradéka
+		//candidate.Dump();
+		//(candidate % 3).Dump();
+		
 		for (int i = 3; i <= boundary; i += 2)
 			if (candidate % i == 0)
 				return false;

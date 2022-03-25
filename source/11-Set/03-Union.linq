@@ -8,4 +8,3 @@ var numbersB = new List<int> { 1, 3, 5, 7, 8, 9 };       // 6 items
 
 var q = numbersA.Union(numbersB);
 
-q.Dump();

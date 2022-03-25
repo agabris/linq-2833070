@@ -2,14 +2,18 @@
 
 void Main()
 {
-	var result = GetMagicNumber() + 200;
+	var demo = new Demo();
+	var result = demo.GetMagicNumber() + 200;
 	
 	result.Dump("Call your own methods");
 }
 
 // Define other methods and classes here
 
-public int GetMagicNumber()
+public  class Demo
 {
-	return 42;
+	public  int GetMagicNumber()
+	{
+		return 42;
+	}
 }

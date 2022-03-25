@@ -1,5 +1,5 @@
 <Query Kind="Program">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 void Main()
@@ -29,5 +29,5 @@ public bool IsColorTotalLessThan(CourseLib.WebColor color, double maxValue)
 {
 	var total = color.BluePercent + color.GreenPercent + color.RedPercent;
 
-	return total < maxValue;
+	return total <= maxValue;
 }

@@ -1,5 +1,5 @@
 <Query Kind="Statements">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 // Work with a nested group sequence
@@ -15,11 +15,19 @@ var grouped = colors.GroupBy(keySelector: x => x.ColorFamily,
 
 foreach (var group in grouped)
 {
-
+	string txt;
+	int i ;
 	Console.WriteLine(group.Family);
+	
+	i= 0;
+	
 	foreach (var color in group.Colors)
-	{
-		Console.WriteLine($"    {color.ColorName}");
+	{	
+		i++;
+		txt = $".  {color.ColorName}";
+		//Console.WriteLine($"   {color.ColorName}");
+		Console.WriteLine("   " +i + txt);
+		
 	}
 	
 	Console.WriteLine();

@@ -1,0 +1,20 @@
+﻿roductID;SupplierID;CategoryID;ProductName;EnglishName;QuantityPerUnit;UnitPrice
+1;1;1;Chai;Dharamsala Tea;10 boxes x 20 bags;18
+2;1;1;Chang;Tibetan Barley Beer;24 - 12 oz bottles;19
+3;1;2;Aniseed Syrup;Licorice Syrup;12 - 550 ml bottles;10
+4;2;2;Chef Anton's Cajun Seasoning;Chef Anton's Cajun Seasoning;48 - 6 oz jars;22
+5;2;2;Chef Anton's Gumbo Mix;Chef Anton's Gumbo Mix;36 boxes;21,35
+6;3;2;Grandma's Boysenberry Spread;Grandma's Boysenberry Spread;12 - 8 oz jars;25
+7;3;7;Uncle Bob's Organic Dried Pears;Uncle Bob's Organic Dried Pears;12 - 1 lb pkgs.;30
+8;3;2;Northwoods Cranberry Sauce;Northwoods Cranberry Sauce;12 - 12 oz jars;40
+9;4;6;Mishi Kobe Niku;Mishi Kobe Beef;18 - 500 g pkgs.;97
+10;4;8;Ikura;Fish Roe;12 - 200 ml jars;31
+11;5;4;Queso Cabrales;Cabrales Cheese;1 kg pkg.;21
+12;5;4;Queso Manchego La Pastora;Manchego La Pastora Cheese;10 - 500 g pkgs.;38
+13;6;8;Konbu;Kelp Seaweed;2 kg box;6
+14;6;7;Tofu;Bean Curd;40 - 100 g pkgs.;23,25
+15;6;2;Genen Shouyu;Lite Sodium Soy Sauce;24 - 250 ml bottles;15,5
+16;7;3;Pavlova;Pavlova Meringue Dessert;32 - 500 g boxes;17,45
+17;7;6;Alice Mutton;Alice Springs Lamb;20 - 1 kg tins;39
+18;7;8;Carnarvon Tigers;Carnarvon Tiger Prawns;16 kg pkg.;62,5
+19;8;3;Teatime Chocolate Biscuits;Teatime Chocolate Biscuits;10 boxes x 12 pieces;9,2

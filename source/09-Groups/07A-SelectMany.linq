@@ -1,5 +1,5 @@
 <Query Kind="Program">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 // SelectMany flattens a one-many relationship
@@ -21,11 +21,11 @@ void Main()
 	var q = from calendar in calendars
 					select calendar;
 					
-q.Dump();
+//q.Dump();
 var q2 = calendars.SelectMany(m =>m.Years );
-//q2.Dump();
-}
+q2.Dump();
 
+}
 // Define other methods and classes here
 public class HistoryCalendar
 {

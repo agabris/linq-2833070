@@ -12,8 +12,8 @@ string isLargeResult = isLargeNumber ? "Large Number" : "Small number";
 x.Dump();
 
 //// add header
-//x.Dump("X value");
+x.Dump("X value");
 //
-//isLargeNumber.Dump ("isLargeNumber");
+isLargeNumber.Dump ("isLargeNumber");
 //
-//isLargeResult.Dump("isLargeResult");
+isLargeResult.Dump("isLargeResult");

@@ -20,7 +20,7 @@ var highest = numbers.Max();
 
 var countOf = numbers.Count();
 // count take a optional predicate lambda
-var anotherCountOf = numbers.Count(n => n > 20);
+var anotherCountOf = numbers.Count(nv => nv > 20);
 
 total.Dump("Sum");
 median.Dump("Average");

@@ -1,5 +1,5 @@
 <Query Kind="Statements">
-  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\WR\Source\Repos\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
+  <Reference Relative="..\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">&lt;MyDocuments&gt;\GitHub\linq-2833070\source\VisualStudio\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
 // challenge
@@ -28,4 +28,20 @@ var colors = CourseLib.ColorSource.GetColors();
 var q = from color in colors
 				group color by color.HSL.Saturation;
 
-q.Dump();
+//q.Dump();
+
+var q1 = from color in colors
+				group color by color.RedPercent;
+
+//q1.Dump();
+
+var q2 = from color in colors
+				group color by Math.Round(color.RedPercent, 1) ;
+
+//q2.Dump();
+var x1 = from color in colors
+				 group color by new {color.GreenValue, color.RedValue, color.BlueValue};
+				 
+				 //select new {colors, b }  ;
+				
+x1. Dump();
